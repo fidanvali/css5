@@ -1,0 +1,112 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   }
+
+.default{
+    background-image: url(../img/header-bg.jpg);
+    background-position: center;
+    background-size:cover ;
+    height: 109vh;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+ .logo{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-left: 160px;
+    padding-top: 20px;
+    width: 20%;
+}
+.navbar {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 160px;
+    padding-left: 60px;
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding: 30px;
+    float: right;
+}
+.navbar a:hover{
+ color: #d5a804;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content button{
+    background-color: rgb(246, 254, 0);
+    text-decoration: none;
+    width: 15%;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.content button:hover{
+    background-color: rgb(166, 149, 17);
+}
+#portfolio .imgs {
+    float: left;
+    width: 30%;
+    margin-left: 36px;
+    margin-top: 20px;
+    background-color: #F8F9FA;
+}
+#portfolio .imgs img {
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+#portfolio {
+    background-color: #F8F9FA;
+}
+
+#portfolio .portfolio-item .img {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #F8F9FA;
+}
+
+.named {
+    text-align: center;
+    color: #0f0f0f;
+    padding-bottom: 10px;
+    background-color: #fefefe;
+    font-size: 40px;
+    }
+    p {
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        color: #797e84;
+        padding-bottom: 25px;
+    }
+    
+    .head1 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: #efefef;
+        text-align: center;
+    }
+    
+    .head2 {
+        background-color: #efefef;
+        text-align: center;
+        font-style: italic;
+       
+    }
+   
